@@ -1,0 +1,15 @@
+---
+- name: restart redis
+  hosts: redis
+  remote_user: mainuser
+  become: yes
+
+  tasks:
+  - name: ping host
+    command: ping
+    changed_when: false
+
+  - name: restart redis
+    service:
+      name: httpd
+      state: restarted
