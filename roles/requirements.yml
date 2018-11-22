@@ -1,0 +1,4 @@
+# other source examples https://docs.ansible.com/ansible/latest/reference_appendices/galaxy.html#advanced-control-over-role-requirements-files
+# from galaxy
+- src: geerlingguy.pip
+- src: geerlingguy.docker
