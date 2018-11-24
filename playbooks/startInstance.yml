@@ -7,5 +7,5 @@
         module: ec2
         region: "{{ region }}"
         instance_tags:
-            Name: ExtraPower
+            Name: "(( name_tag }}"
         state: running
