@@ -5,6 +5,7 @@
   tasks:
     - local_action:
         module: ec2
+        region: "{{ region }}"
         instance_tags:
             Name: ExtraPower
         state: running
