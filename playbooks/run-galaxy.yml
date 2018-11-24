@@ -4,5 +4,5 @@
   name: "run ansible galaxy"
   tasks: 
     - 
-      command: "ansible-galaxy install -r /var/lib/awx/projects/_7__ec2_basics/playbooks/roles/requirements.yml"
+      command: "ansible-galaxy install -r /var/lib/awx/projects/_7__ec2_basics/roles/requirements.yml"
       delegate_to: localhost
