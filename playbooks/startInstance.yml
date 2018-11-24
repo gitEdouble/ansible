@@ -6,6 +6,6 @@
   - local_action:
     module: ec2
     instance_tags:
-        Name: {{ name_tag }}
+        Name: "{{ name_tag }}"
     state: running
 
