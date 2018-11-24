@@ -3,9 +3,8 @@
   hosts: localhost
 
   tasks:
-  - local_action:
-    module: ec2
-    instance_tags:
-        Name: "{{ name_tag }}"
-    state: running
-
+    - local_action:
+        module: ec2
+        instance_tags:
+            Name: ExtraPower
+        state: running
