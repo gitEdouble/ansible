@@ -1,5 +1,9 @@
 ---
-- local_action:
+- name: start instance
+  hosts: localhost
+
+  tasks:
+  - local_action:
     module: ec2
     instance_tags:
         Name: {{ name_tag }}
