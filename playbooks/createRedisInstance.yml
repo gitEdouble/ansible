@@ -38,4 +38,5 @@
   hosts: launched
   become: True
   gather_facts: True
-  roles: geerlingguy.redis
+  roles: 
+    - geerlingguy.redis
