@@ -39,4 +39,4 @@
   become: True
   gather_facts: True
   roles:
-    - geerlingguy.redis
+    - role: geerlingguy.redis
