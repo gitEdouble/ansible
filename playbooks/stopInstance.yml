@@ -1,0 +1,11 @@
+---
+- name: stop instance
+  hosts: localhost
+
+  tasks:
+    - local_action:
+        module: ec2
+        region: "{{ region }}"
+        instance_tags:
+            Name: "{{ name_tag }}"
+        state: stopped
