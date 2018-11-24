@@ -2,7 +2,7 @@
 # from galaxy
 - src: geerlingguy.pip
 - src: geerlingguy.docker
-- src: geerlingguy.firewall
+- src: geerlingguy.nodejs
 - src: geerlingguy.ansible
 - src: geerlingguy.java
 - src: geerlingguy.jenkins
