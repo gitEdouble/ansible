@@ -1,0 +1,11 @@
+
+# Basic provisioning example
+- ec2:
+    key_name: SetOne
+    instance_type: t2.micro
+    image: ami-0ac019f4fcb7cb7e6
+    wait: yes
+    group: trial
+    count: 1
+    vpc_subnet_id: subnet-f82a8ed4
+    assign_public_ip: yes
