@@ -1,5 +1,0 @@
-- local_action:
-    module: ec2
-    instance_tags:
-        Name: firstInstance
-    state: running

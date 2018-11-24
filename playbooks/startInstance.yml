@@ -2,6 +2,6 @@
 - local_action:
     module: ec2
     instance_tags:
-        Name: firstInstance
+        Name: {{ name_tag }}
     state: running
 
