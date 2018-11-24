@@ -19,6 +19,8 @@
          region: "{{ region }}"
          vpc_subnet_id: subnet-f82a8ed4
          assign_public_ip: yes
+         instance_tags:
+             name: redis
       register: ec2
 
     - name: Add new instance to host group
