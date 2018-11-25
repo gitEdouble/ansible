@@ -1,1 +1,6 @@
-- ec2_lc_facts:
+---
+- name: Inspect Launch configs for autoscaling
+  hosts: localhost
+  gather_facts: False
+  tasks:
+    - ec2_lc_facts:
