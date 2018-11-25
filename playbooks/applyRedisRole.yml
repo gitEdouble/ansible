@@ -1,0 +1,4 @@
+- name: apply-redis-role
+  hosts: all
+  roles:
+    - geerlingguy.redis
